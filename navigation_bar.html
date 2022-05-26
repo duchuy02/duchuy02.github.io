@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+    <!-- 
+        Huy Vuong 
+        27 July, 2021
+        This is a personal website created by Huy Vuong 
+    -->    
+    <!-- html start from here -->
+    <html>
+        
+        <!-- Heading -->
+        <head>
+            <title> Huy Vuong </title>
+            <link rel="stylesheet" href="navigation_bar.css">
+            <!-- Boxicons CSS -->
+            <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        </head>
+    
+        <body>
+            <div class="sidebar">  <!-- Heading including head menu and Small profile image-->
+                <div class="logo_content">
+                    <div class="logo">
+                        <div class="logo_name">Huy Vuong</div>
+                    </div>
+                    <i class='bx bx-menu' id="btn"></i>
+                </div>
+                <ul class="nav_list" >
+                    <li>
+                            <i class='bx bx-search' ></i>
+                            <input type="text" placeholder="Search...">
+                            <span class="tooltip">Search</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-home' ></i>
+                            <span class="links_name">Home</span>
+                        </a>
+                        <span class="tooltip">Home</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-user-circle' ></i>
+                            <span class="links_name">Profile</span>
+                        </a>
+                        <span class="tooltip">Profile</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class='bx bxs-graduation' ></i>
+                            <span class="links_name">Education</span>
+                        </a>
+                        <span class="tooltip">Education</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-briefcase-alt' ></i>
+                            <span class="links_name">Works</span>
+                        </a>
+                        <span class="tooltip">Works</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class='bx bxs-piano' ></i>
+                            <span class="links_name">Hobbies</span>
+                        </a>
+                        <span class="tooltip">Hobbies</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-phone' ></i>
+                            <span class="links_name">Contact</span>
+                        </a>
+                        <span class="tooltip">Contact</span>
+                    </li>
+                </ul>
+                <div class="profile_content">
+                    <div class="profile">
+                        <div class="profile_details">
+                            <img src="avatar.jpg" alt="">
+                            <div class="name_job">
+                                <div class="name">Huy Vuong</div>
+                                <div class="job">Student</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home_content">
+                <div class="text">Home Content</div>
+            </div>
+
+            <script>
+                let btn = document.querySelector("#btn");
+                let sidebar = document.querySelector(".sidebar");
+                let searchBtn = document.querySelector(".bx-search");
+
+                btn.onclick = function() {
+                    sidebar.classList.toggle("active");
+                }
+                searchBtn .onclick = function() {
+                    sidebar.classList.toggle("active");
+                }
+            </script>
+            <!--
+            <main>
+                <section id="hero">
+                    <div class="section-inner">
+                        <img src="avatar.jpg" class="profile-img">
+                        <h1>Hi, I'm Huy Vuong</h1>
+                    </div>
+                </section>
+                <section id="about">
+                    <div class="section-inner">
+                        <h2>About me</h2>
+                            <p>Music and Technology</p>
+
+                        <h3>Personal information</h3>
+                            <ul>
+                                <li>Birthday on 3 July, 2002</li>
+                                <li>Ho Chi Minh (VN) -- Charlottetown (CA) -- Toronto (CA) </li>
+                            </ul>
+
+                        <h3>Education</h3>
+                            <ul>
+                                <li>2021 - now &nbsp;|| Post-secondary : York University  </li>
+                                <li>2020 - 2021 || Post-secondary : University of Prince Edward Island </li>
+                                <li>2017 - 2018 || First Highschool : Gia Dinh Highschool </li>
+                                <li>2018 - 2020 || Second highschool : Colonel Gray Senior High School </li>
+                            </ul>
+
+                        <h3>Hobbies</h3>
+                            <ul>
+                                <li>Piano / Guitar</li>
+                                <li>Code</li>
+                                <li>Travel</li>
+                                <li>Fish</li>
+                                <li>Video games</li>
+                                <li>Phones</li>
+                            </ul>
+
+                        
+
+                    </div>
+                </section>
+                <section id="contact">
+                    <div class="section-inner">
+                        <h2>Contact me</h2>
+                        <p>You can find me on:</p>
+                        <ul>
+                            <li><span>Facebook : </span><a href="https://www.facebook.com/huyvuongg/">Vuong Duc Huy</a></li>
+                            <li>Phone number : 782 377 3788</li>
+                        </ul>
+                        <p>Or, you can <a href="mailto:vuongduchuy2002@gmail.com">send me an email</a>.</p>
+                    </div>
+                </section>
+            </main>-->
+
+            <footer>
+                © Copyright Huy Vuong, 2021
+            </footer>
+            
+            
+
+        </body>
+    </html>
